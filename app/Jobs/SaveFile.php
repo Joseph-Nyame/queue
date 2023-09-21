@@ -30,6 +30,7 @@ class SaveFile implements ShouldQueue
     {
       
         foreach ($this->fileData as $fileInfo) {
+        
         $originalName = $fileInfo['original_name'];
         
         $filename = $fileInfo['filename'];
